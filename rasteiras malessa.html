@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rasteiras Malessa - DAHAB</title>
+  <link rel="stylesheet" href="../css/pag uni.css">
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="index.html">
+        <img class="dahab-space" width="120px" src="../img/início/Logo DAHAB preta ajustada2.jpg" alt="Logo da DAHAB">
+      </a>
+    </h1>
+    <nav>
+      <a href="../index.html">Início</a>
+      <a href="../login page.html">Área do cliente</a>
+      <a href="../sobre nós.html">Sobre Nós</a>
+      <a href="../contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="../img/Produtos - Rasteiras/Rasteiras Malessa.jpg" width="400px" height="400" alt="Rasteiras Malessa">
+      <div class="product-details">
+        <h1 class="h1j">Rasteiras Malessa</h1>
+        <div class="price">R$79,90</div>
+        <span class="h1j">
+            Conheça nossas rasteiras em dourado e prata foscos, a escolha perfeita para quem busca sofisticação com um toque de sutileza. O acabamento fosco combina elegância e modernidade, proporcionando um brilho suave que complementa qualquer look com delicadeza.
+Versáteis e atemporais, essas rasteiras são ideais para o dia a dia ou para ocasiões que pedem conforto sem abrir mão de estilo.
+        </span>
+        <div class="sizes">
+          <span>Tamanhos:</span>
+          <button>34</button>
+          <button>35</button>
+          <button>36</button>
+          <button>37</button>
+          <button>38</button>
+        </div>
+        <a href="#" class="buy-button" id="buyButton">Comprar</a>
+        <div id="alertMessage" class="alert">
+          Produto indisponível no momento. Tente novamente mais tarde!
+        </div>
+        <hr>
+        <span class="h1j">Rasteiras nas cores dourada fosca e prata fosca, com detalhes de pedrarias pequenas nas suas duas tiras. Não contém rabicho.
+        </span>
+      </div>
+    </div>
+  </div>
+  <footer>
+    © 2024 DAHAB - Todos os direitos reservados.
+  </footer>
+
+  <script>
+    const buyButton = document.getElementById('buyButton');
+    const alertMessage = document.getElementById('alertMessage');
+
+    buyButton.addEventListener('click', (e) => {
+      e.preventDefault(); // Evita o comportamento padrão do link
+      alertMessage.style.display = 'block'; // Mostra o aviso
+    });
+  </script>
+</body>
+</html>

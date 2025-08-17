@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rasteiras Flower - DAHAB</title>
+  <link rel="stylesheet" href="../css/pag uni.css">
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="index.html">
+        <img class="dahab-space" width="120px" src="../img/início/Logo DAHAB preta ajustada2.jpg" alt="Logo da DAHAB">
+      </a>
+    </h1>
+    <nav>
+      <a href="../index.html">Início</a>
+      <a href="../login page.html">Área do cliente</a>
+      <a href="../sobre nós.html">Sobre Nós</a>
+      <a href="../contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="../img/Produtos - Rasteiras/Rasteiras Flower.jpg" width="400px" height="400" alt="Rasteiras Flower">
+      <div class="product-details">
+        <h1 class="h1j">Rasteiras Flower</h1>
+        <div class="price">R$79,90</div>
+        <span class="h1j">
+            Encante-se com nossas rasteiras adornadas por uma linda flor em tons de rosé e prata. Um design que combina charme e elegância, perfeito para mulheres que desejam um toque feminino e sofisticado no visual.
+A flor em destaque traz um ar romântico e delicado, enquanto os tons metálicos de rosé e prata adicionam modernidade e versatilidade. Seja para um passeio ao ar livre, um evento especial ou um look casual cheio de estilo, essa rasteira é a escolha ideal.
+        </span>
+        <div class="sizes">
+          <span>Tamanhos:</span>
+          <button>34</button>
+          <button>35</button>
+          <button>36</button>
+          <button>37</button>
+          <button>38</button>
+        </div>
+        <a href="#" class="buy-button" id="buyButton">Comprar</a>
+        <div id="alertMessage" class="alert">
+          Produto indisponível no momento. Tente novamente mais tarde!
+        </div>
+        <hr>
+        <span class="h1j">Rasteiras nas cores prata e ouro rosê, com um detalhe de uma flor na parte frontal. Não contém rabicho.
+        </span>
+      </div>
+    </div>
+  </div>
+  <footer>
+    © 2024 DAHAB - Todos os direitos reservados.
+  </footer>
+
+  <script>
+    const buyButton = document.getElementById('buyButton');
+    const alertMessage = document.getElementById('alertMessage');
+
+    buyButton.addEventListener('click', (e) => {
+      e.preventDefault(); // Evita o comportamento padrão do link
+      alertMessage.style.display = 'block'; // Mostra o aviso
+    });
+  </script>
+</body>
+</html>
