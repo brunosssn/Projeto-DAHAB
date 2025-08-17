@@ -1,0 +1,78 @@
+/* Estilo básico */
+body {
+    width: auto;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+header {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.dahab-space{
+    margin: 0 20px;
+    padding: 0;
+}
+nav {
+    padding: 0;
+    margin: 0 10px;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #a0a0a0;
+}
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    height: calc(100vh - 80px);
+    text-align: justify;
+  }
+  
+  .foto {
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 20px;
+    align-items: center;
+  }
+  
+  .foto img {
+    width: 475px;
+    height: auto;
+    padding: 0 40px;
+  }
+  .texto {
+    flex: 1;
+    padding: 0 40px;
+  }
+  
+  .texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .texto p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+ /* Rodapé */
+ footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  height: 11px;
+  font-size: 10px;
+}
